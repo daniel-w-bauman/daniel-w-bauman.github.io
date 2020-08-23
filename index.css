@@ -3,11 +3,6 @@
   text-align: center;
 }
 
-body {
-  color: white;
-  background-color: #001f4d;
-}
-
 .row {
   padding-bottom: 10px;
 }
@@ -21,6 +16,14 @@ body {
     padding-top: 10vh;
     padding-bottom: 25px;
   }
+
+  .main-body {
+  }
+
+  body {
+    color: white;
+    background-color: #001f4d;
+  }
 }
 
 @media (min-width: 768px) {
@@ -31,5 +34,24 @@ body {
     margin-right: auto;
     padding-top: 15vh;
     padding-bottom: 15px;
+  }
+
+  .main-body {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: #001f4d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+  }
+
+  body {
+    color: white;
+    background-color: #131E33;
   }
 }
