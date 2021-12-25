@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  color: #004B8D;
+  margin-left: 15px;
+}
+
+.contact {
+   text-align: center;
+   font-size: 15px;
+}
+
+h3 {
+  color: #0074D9;
+  font-size: 18px
+}
+
+h5 {
+  color: #004B8D;
+  font-size: 15px;
+}
+
+.job {
+  padding-left: 15px;
+}
+
+.job-description {
+  font-size: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.classes {
+  column-count: 3;
+}
